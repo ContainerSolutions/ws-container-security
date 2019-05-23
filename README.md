@@ -1,2 +1,2 @@
-# security-course
-Code and examples for Container and Microservice Security course
+# container-security
+Code and examples for Container Security Workshop
