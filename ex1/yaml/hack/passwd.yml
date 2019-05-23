@@ -1,0 +1,9 @@
+---
+hi: there
+test: !!js/function |
+  function f() {
+    fs.readFile('/etc/passwd', 'ascii', function (err, data) {
+      if (err) throw err;
+      console.log(data);
+    });
+  }();
